@@ -21,7 +21,7 @@ with Diagram("CSYE7125", show=True):
     with Cluster("Github Cluster"):
         ghActions = GithubActions("CI")
         client = Client("user")
-        webHookCustom = Custom("webhook" , "./my_resources/webhook.png")
+        webHookCustom = Custom("webhook" ,"src/examples/my_resources/webhook.png")
         # edges for client commit and ci runs
 
     with Cluster("AWS-Jenkins Cluster"):
@@ -80,7 +80,7 @@ with Diagram("CSYE7125", show=True):
 
                     with Cluster("Node2 Setup"):
                         podOperator = Pod("k8s operator")
-                        customCR = Custom("custom resource", "./my_resources/pod.png")
+                        customCR = Custom("custom resource", "src/examples/my_resources/pod.png")
                         crd = CRD("CRD")
                         cronJob = Cronjob("cj")
                         job = Job("job")
