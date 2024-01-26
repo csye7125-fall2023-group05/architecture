@@ -40,4 +40,16 @@ To setup the python environment for development, we need to install a few tools.
 
 ## Architecture Diagram
 
-![K8S](/csye7125.png)
+![K8S](kubernetes_architecture.png)
+
+## LICENSE
+
+This project is open-sourced under the MIT License. Please read the [LICENSE](./LICENSE) for further details.
+
+## Authors
+
+[Siddharth Rawat](httos://github.com/sydrawat01)
+
+[Rishab Agarwal](https://github.com/rishabNeu)
+
+[Karan Wadhwa](https://github.com/karanwadhwa)
