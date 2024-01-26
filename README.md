@@ -38,6 +38,6 @@ To setup the python environment for development, we need to install a few tools.
 
 - To run the python file with the DaC definition, we need to set the python interpreter path in `VSCode`. Use `cmd` + `shift` + `p` to open up the command palette, and then type: `Python: Select Interpreter` -> click on `Enter interpreter path...` and then copy and paste the virtualenv executable path here by running the command in the previous step, i.e, `poetry env info`. This will help setup the default interpreter to use the exact virtualenv for your specified project.
 
+## Architecture Diagram
 
-### Architecture Diagram CSYE7125
 ![K8S](/csye7125.png)
