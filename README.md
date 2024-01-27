@@ -48,7 +48,7 @@ This project is open-sourced under the MIT License. Please read the [LICENSE](./
 
 ## Authors
 
-[Siddharth Rawat](httos://github.com/sydrawat01)
+[Siddharth Rawat](https://github.com/sydrawat01)
 
 [Rishab Agarwal](https://github.com/rishabNeu)
 
