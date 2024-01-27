@@ -40,7 +40,7 @@ To setup the python environment for development, we need to install a few tools.
 
 ## Architecture Diagram
 
-![K8S](kubernetes_architecture.png)
+![K8S](./kubernetes_architecture_out.svg)
 
 ## LICENSE
 

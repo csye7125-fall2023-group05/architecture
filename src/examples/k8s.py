@@ -27,7 +27,7 @@ from diagrams.onprem.logging import Fluentbit
 from diagrams.onprem.monitoring import Prometheus, Grafana
 from diagrams.onprem.vcs import Github
 
-with Diagram("Kubernetes Architecture", show=False):
+with Diagram("Kubernetes Architecture", show=False, outformat="svg"):
     source = User("Developer")
     registry = ContainerRegistry("Container Registry")
     tf = Terraform("IaC")
